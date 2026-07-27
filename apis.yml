@@ -1,7 +1,24 @@
 aid: fusion-i-o
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fusion-i-o.png
 name: Fusion I/O
-description: Fusion I/O is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Fusion-io (branded Fusion I/O) was an enterprise storage company founded in 2005
+  and based in the Salt Lake City area of Utah, best known for its ioMemory and ioDrive PCIe
+  flash acceleration cards that placed NAND flash directly on the server bus to speed databases
+  and data-center workloads. Steve Wozniak served as chief scientist; the company listed on the
+  NYSE in 2011 and was acquired by SanDisk in 2014, later becoming part of Western Digital. It
+  exposes no public API, developer portal, or documentation surface today; fusionio.com no longer
+  resolves to a live site. Retained in the network as a defunct a16z portfolio company for record.'
 url: https://raw.githubusercontent.com/api-evangelist/fusion-i-o/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: defunct
+x-status-reason: acquired-by-sandisk-2014-no-live-surface
 tags:
 - Company
+- Storage
+- Flash Memory
+- Enterprise Storage
+- Data Center
+- Hardware
+- Semiconductors
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
