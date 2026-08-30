@@ -69,3 +69,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/sandisk/
+  name: SanDisk
+  x-relationship: acquired
+  x-evidence: "Steve Wozniak served as chief scientist; the company listed on the NYSE in 2011 and was acquired by SanDisk in 2014, later becoming part of Western Digital."
