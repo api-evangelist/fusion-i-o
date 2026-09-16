@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 x-status: defunct
 x-status-reason: acquired-by-sandisk-2014-no-live-surface
 tags:
@@ -50,6 +50,7 @@ tags:
 - Data-Center
 - Hardware
 - Semiconductors
+- Defunct
 tags_raw:
 - Company
 - Storage
@@ -58,6 +59,7 @@ tags_raw:
 - Data Center
 - Hardware
 - Semiconductors
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
