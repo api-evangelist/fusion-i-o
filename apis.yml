@@ -47,7 +47,7 @@ tags:
 - Storage
 - Flash Memory
 - Enterprise Storage
-- Data-Center
+- Data Center
 - Hardware
 - Semiconductors
 - Defunct
@@ -60,6 +60,7 @@ tags_raw:
 - Hardware
 - Semiconductors
 - Defunct
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -78,3 +79,5 @@ common:
   x-relationship: acquired
   x-evidence: Steve Wozniak served as chief scientist; the company listed on the NYSE in 2011 and was
     acquired by SanDisk in 2014, later becoming part of Western Digital.
+x-acquired-by: sandisk
+x-acquired-year: 2014
